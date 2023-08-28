@@ -14,8 +14,9 @@
  }
   else if (avg>=70 && avg<=85)
  {
-  pritnf("PASS");
- else if (avg<70) 
+  printf("PASS");
+ else if (avg<70)
+} 
 { 
  printf("NEEDS IMPROVEMENT");
 }

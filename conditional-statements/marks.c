@@ -1,6 +1,7 @@
 #include<stdio.h>
    int main () {
-   int  e1,e2,e3,avg;
+   int  e1,e2,e3;
+   float avg;
    printf("Enter marks in exam1: ");
    scanf("%d", &e1);
    printf("Enter marks in exam2: ");
@@ -15,8 +16,8 @@
   else if (avg>=70 && avg<=85)
  {
   printf("PASS");
- else if (avg<70)
-} 
+}
+ else if (avg<70) 
 { 
  printf("NEEDS IMPROVEMENT");
 }
